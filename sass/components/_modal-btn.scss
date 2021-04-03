@@ -18,11 +18,11 @@
   text-align: center;
 
   transition: background-color var(--transition-funktion);
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--modal-hover-color);
-  border: 0 solid transparent;
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: var(--modal-hover-color);
+    border: 0 solid transparent;
+    cursor: pointer;
+  }
 }

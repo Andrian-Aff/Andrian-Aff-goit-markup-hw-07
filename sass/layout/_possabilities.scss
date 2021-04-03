@@ -4,11 +4,12 @@
 .possibilities-list {
   display: flex;
   justify-content: space-between;
+
+  &:not(:last-child) {
+    margin-left: 30px;
+  }
 }
 
-.possibilities-list:not(:last-child) {
-  margin-left: 30px;
-}
 
 .possabilities-wrapper {
   position: relative;

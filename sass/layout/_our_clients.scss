@@ -17,6 +17,11 @@
   border-radius: 4px;
 
   transition: border var(--transition-funktion);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .clients-list-item:not(:last-child) {
@@ -26,14 +31,8 @@
 .clients-icon {
   fill: var(--icon-color);
   transition: fill var(--transition-funktion);
-}
-
-.clients-list-link:hover,
-.clients-list-link:focus {
-  border: 1px solid var(--accent-color);
-}
-
-.clients-list-link:hover .clients-icon,
-.clients-list-link:focus .clients-icon {
-  fill: var(--accent-color);
+  .clients-list-link:hover &,
+  .clients-list-link:focus & {
+    fill: var(--accent-color);
+  }
 }

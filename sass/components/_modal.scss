@@ -36,9 +36,9 @@
 
 .icon-close {
   fill: currentColor;
-}
 
-.modal-close-btn:hover .icon-close,
-.modal-close-btn:focus .icon-close {
-  fill: var(--accent-color);
+  .modal-close-btn:hover &,
+  .modal-close-btn:focus & {
+    fill: var(--accent-color);
+  }
 }
