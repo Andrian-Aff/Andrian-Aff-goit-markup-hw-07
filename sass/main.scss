@@ -1,22 +1,4 @@
-@import "./utils/veriables";
-@import "./utils/visually-hidden";
-
-@import "./base/common";
-@import "./base/container";
-
-@import "./components/modal-btn";
-@import "./components/logo";
-@import "./components/section-title";
-@import "./components/social-links";
-@import "./components/backdrop";
-@import "./components/modal";
-@import "./components/modal-form";
-@import "./components/current";
-
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/feauture";
-@import "./layout/possabilities";
-@import "./layout/our_team";
-@import "./layout/our_clients";
-@import "./layout/footer";
+@import "./base/base";
+@import "./components/components";
+@import "./layout/layout";
+@import "./utils/utils";
