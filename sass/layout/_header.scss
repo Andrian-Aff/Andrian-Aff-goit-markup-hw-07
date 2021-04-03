@@ -11,8 +11,10 @@
   display: flex;
 }
 
-.navigation-list-item:not(:last-child) {
-  margin-right: 50px;
+.navigation-list-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .navigation-list {
@@ -45,8 +47,10 @@
   margin-left: auto;
 }
 
-.contacts-list-item:not(:last-child) {
-  margin-right: 50px;
+.contacts-list-item {
+  :not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .contacts-link {

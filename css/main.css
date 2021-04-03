@@ -687,7 +687,7 @@ body {
   margin-left: auto;
 }
 
-.contacts-list-item:not(:last-child) {
+.contacts-list-item :not(:last-child) {
   margin-right: 50px;
 }
 
@@ -773,7 +773,7 @@ body {
   border: 1px solid var(--accent-color);
 }
 
-.clients-list-item:not(:last-child) {
+.clients-list-item :not(:last-child) {
   margin-right: 30px;
 }
 

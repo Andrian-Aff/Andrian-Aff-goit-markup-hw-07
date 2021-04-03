@@ -1,6 +1,7 @@
 .social-list-icon {
   fill: var(--icon-color);
   transition: fill var(--transition-funktion);
+
   &:hover,
   &:focus {
     color: var(--accent-color);

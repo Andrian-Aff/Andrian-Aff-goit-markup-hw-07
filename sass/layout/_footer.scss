@@ -25,8 +25,10 @@
   color: var(--footer-link);
 }
 
-.address-list-item:not(:last-child) {
-  margin-bottom: 9px;
+.address-list-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .footer-link-address {
@@ -46,8 +48,10 @@
   color: var(--accent-color-text);
 }
 
-.footer-social-item:not(:last-child) {
-  margin-right: 10px;
+.footer-social-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .footer-social-link {

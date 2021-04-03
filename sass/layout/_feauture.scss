@@ -21,8 +21,11 @@
 .features-title {
   margin-bottom: 10px;
 }
-.features_list_item:not(:last-child) {
-  margin-right: 30px;
+
+.features_list_item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .features-description {
