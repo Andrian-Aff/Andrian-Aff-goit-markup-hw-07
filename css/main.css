@@ -467,11 +467,6 @@ body {
   background-color: var(--accent-color);
 }
 
-.social-list-link .social-list-icon,
-.social-list-link .social-list-icon {
-  fill: var(--accent-color-text);
-}
-
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -773,7 +768,7 @@ body {
   border: 1px solid var(--accent-color);
 }
 
-.clients-list-item :not(:last-child) {
+.clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
