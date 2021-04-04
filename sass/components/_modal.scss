@@ -12,7 +12,7 @@
   border-radius: 4px;
 }
 
-.modal-close-btn {
+.modal__close-btn {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -34,11 +34,11 @@
   transition: var(--timing-funktion);
 }
 
-.icon-close {
+.modal__icon-close {
   fill: currentColor;
 
-  .modal-close-btn:hover &,
-  .modal-close-btn:focus & {
+  .modal__close-btn:hover &,
+  .modal__close-btn:focus & {
     fill: var(--accent-color);
   }
 }

@@ -7,7 +7,7 @@
   display: flex;
 }
 
-.clients-list-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,17 +24,18 @@
   }
 }
 
-.clients-list-item {
+.clients-list__item {
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.clients-icon {
+.clients-list__icon {
   fill: var(--icon-color);
   transition: fill var(--transition-funktion);
-  .clients-list-link:hover &,
-  .clients-list-link:focus & {
+
+  .clients-list__link:hover &,
+  .clients-list__link:focus & {
     fill: var(--accent-color);
   }
 }

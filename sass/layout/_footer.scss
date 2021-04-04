@@ -3,27 +3,22 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  .container {
+  &__container {
     display: flex;
     align-items: baseline;
   }
+  &__address {
+    margin-right: 70px;
+  }
 }
 
-.footer-address {
-  margin-right: 70px;
-}
-
-.footer-link-location {
+.address-list__location {
   color: var(--accent-color-text);
   font-family: var(--main-font);
   @include font($fs: 14px, $lh: 24px);
 }
 
-.footer-link-address {
-  color: var(--footer-link);
-}
-
-.address-list-item {
+.address-list__item {
   &:not(:last-child) {
     margin-bottom: 9px;
   }
@@ -31,40 +26,23 @@
 
 .footer-link-address {
   @include font($fs: 14px, $lh: 24px);
+  color: var(--footer-link);
 }
 
 /* footer social links */
-.footer-join-us {
+.join-us__title {
+  font-family: var(--main-font);
   @include font($fs: 14px, $fw: 700, $lh: 16px);
   margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--accent-color-text);
 }
 
-.footer-social-item {
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
-}
-
-.footer-social-link {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  width: 44px;
+.social-list__link_dark_theme {
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-
-  transition: background-color var(--transition-funktion);
-
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-  }
 }
 
-.footer-social-icon {
+.social-list__icon_dark_theme {
   fill: var(--accent-color-text);
 }
 
@@ -72,18 +50,11 @@
   margin-left: auto;
 }
 
-.footer-join-wrapper {
+.footer-subscribe-wrapper {
   display: flex;
 }
-.subscribe-title {
-  font-family: var(--main-font);
-  @include font($fs: 14px, $fw: 700, $lh: 16px);
-  text-transform: uppercase;
-  color: var(--accent-color-text);
-  margin-bottom: 20px;
-}
 
-.footer-join-email {
+.footer-subscribe__email {
   padding-left: 16px;
   padding-top: 18px;
   padding-bottom: 12px;
@@ -96,31 +67,4 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-}
-
-.button-join-us {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  width: 200px;
-  height: 50px;
-  font-family: var(--main-font);
-  @include font($fs: 16px, $fw: 700, $lh: 30px, $ls: 00.06em);
-  color: var(--accent-color-text);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  border: transparent;
-
-  &:hover,
-  &:focus {
-    background: var(--modal-hover-color);
-    transition: background-color var(--transition-funktion);
-  }
-
-  .icon-send {
-    margin-left: 10px;
-  }
 }

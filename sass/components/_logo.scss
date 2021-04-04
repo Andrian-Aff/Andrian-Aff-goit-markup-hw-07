@@ -1,25 +1,30 @@
-.logo-header {
-  display: block;
+.header__logo {
   padding-top: 24px;
   padding-bottom: 25px;
   padding-right: 92px;
 }
 
 .logo {
+  display: block;
   font-family: var(--secondary-font);
   @include font($fs: 26px, $fw: 700, $lh: 31px);
   color: var(--accent-color);
+
+  &_theme {
+    &_light {
+      color: #000;
+    }
+
+    &_dark {
+      color: #fff;
+    }
+  }
 }
 
-.top-logo {
-  color: var(--logo-top-color);
+.logo_accent-text {
+  color: var(--accent-color);
 }
 
-.logo-footer {
-  display: block;
+.footer__logo {
   margin-bottom: 20px;
-}
-
-.bottom-logo {
-  color: var(--accent-color-text);
 }
