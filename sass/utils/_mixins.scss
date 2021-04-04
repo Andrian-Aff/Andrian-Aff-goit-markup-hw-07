@@ -30,8 +30,8 @@
   }
 }
 
-@mixin font($fs: 14px, $fw: 400, $lh: 18px) {
+@mixin font($fs: 18px, $fw: 400, $ls: 0.03em) {
   font-size: $fs;
   font-weight: $fw;
-  line-height: decimal-round($lh/$fs, 2);
+  letter-spacing: $ls;
 }
