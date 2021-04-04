@@ -1,15 +1,15 @@
-.portfolio-main {
+.portfolio-filter {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.list-portfolio {
+.portfolio-list {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
 
-.btn-portfolio {
+.portfolio-list_btn {
   font-family: inherit;
   @include font($fs: 16px, $fw: 500, $lh: 26px);
   text-align: center;
@@ -34,7 +34,7 @@
   }
 }
 
-.portfolio-list-item {
+.portfolio-list__item {
   &:not(:last-child) {
     margin-right: 8px;
   }
