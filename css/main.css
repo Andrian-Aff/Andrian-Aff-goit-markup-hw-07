@@ -682,7 +682,7 @@ body {
   margin-left: auto;
 }
 
-.contacts-list-item :not(:last-child) {
+.contacts-list-item:not(:last-child) {
   margin-right: 50px;
 }
 

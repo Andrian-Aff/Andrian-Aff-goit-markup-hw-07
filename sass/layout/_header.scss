@@ -48,7 +48,7 @@
 }
 
 .contacts-list-item {
-  :not(:last-child) {
+  &:not(:last-child) {
     margin-right: 50px;
   }
 }
