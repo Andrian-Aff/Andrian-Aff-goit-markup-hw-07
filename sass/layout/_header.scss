@@ -11,17 +11,17 @@
   display: flex;
 }
 
-.navigation-list-item {
+.menu__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.navigation-list {
+.menu {
   display: flex;
 }
 
-.navigation-link {
+.menu__link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -44,13 +44,13 @@
   margin-left: auto;
 }
 
-.contacts-list-item {
+.address-list-header__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.contacts-link {
+.address-list-header__link {
   display: flex;
   align-items: center;
   @include font($fs: 14px, $fw: 500, $lh: 16px, $ls: 0.02em);
@@ -66,7 +66,7 @@
   }
 }
 
-.contacts-icon {
+.address-list-header__icon {
   margin-right: 10px;
   fill: currentColor;
   transition: fill var(--transition-funktion);

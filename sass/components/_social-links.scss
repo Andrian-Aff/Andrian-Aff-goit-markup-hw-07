@@ -2,9 +2,9 @@
   fill: var(--icon-color);
   transition: fill var(--transition-funktion);
 
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: var(--accent-color-text);
   }
 }
 

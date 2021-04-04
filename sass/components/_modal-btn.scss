@@ -8,8 +8,6 @@
   border-radius: 4px;
   color: var(--accent-color-text);
   background-color: var(--accent-color);
-  min-width: 200px;
-  min-height: 50px;
   border: 0 solid transparent;
   padding: 10px 32px;
   text-align: center;
@@ -19,7 +17,6 @@
   &:hover,
   &:focus {
     background-color: var(--modal-hover-color);
-    border: 0 solid transparent;
     cursor: pointer;
   }
 }
