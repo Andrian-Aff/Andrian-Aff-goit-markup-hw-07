@@ -89,11 +89,11 @@ body {
   transition: opacity var(--transition-funktion);
 }
 
-.current {
+.menu__link_current {
   color: var(--accent-color);
 }
 
-.current::after {
+.menu__link_current::after {
   content: "";
   position: absolute;
   left: 0;
