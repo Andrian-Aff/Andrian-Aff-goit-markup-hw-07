@@ -22,10 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font($fs: 14px, $fw: 700, $lh: 16px);
   text-transform: uppercase;
   color: var(--accent-color-text);
   width: 100%;

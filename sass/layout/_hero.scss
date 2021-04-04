@@ -25,10 +25,7 @@
   max-width: 696px;
   text-align: center;
   margin-bottom: 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include font($fs: 44px, $fw: 900, $lh: 60px, $ls: 0.06em);
   text-transform: uppercase;
   color: var(--accent-color-text);
 }

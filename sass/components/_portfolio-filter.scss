@@ -11,11 +11,8 @@
 
 .btn-portfolio {
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  @include font($fs: 16px, $fw: 500, $lh: 26px);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: var(--btn-background-portfolio);
   border-radius: 4px;

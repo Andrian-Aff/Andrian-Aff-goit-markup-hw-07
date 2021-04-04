@@ -26,10 +26,7 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.33;
-  letter-spacing: 0.02em;
+  @include font($fs: 14px, $fw: 500, $lh: 16px, $ls: 0.02em);
   color: var(--main-color);
 
   transition: color var(--transition-funktion);
@@ -56,10 +53,7 @@
 .contacts-link {
   display: flex;
   align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.33;
-  letter-spacing: 0.02em;
+  @include font($fs: 14px, $fw: 500, $lh: 16px, $ls: 0.02em);
   color: var(--description-color);
   padding-top: 32px;
   padding-bottom: 32px;

@@ -125,17 +125,18 @@ body {
 }
 
 .progect-title {
-  margin-bottom: 4px;
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
   color: var(--main-color);
 }
 
 .progect-type {
   font-size: 16px;
-  line-height: 2.25x;
+  font-weight: 400;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
@@ -155,6 +156,7 @@ body {
   top: 0;
   padding: 63px 24px;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.56;
   letter-spacing: 0.03em;
   background-color: var(--accent-color);
@@ -183,8 +185,8 @@ body {
 
 .logo {
   font-family: var(--secondary-font);
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
@@ -208,8 +210,8 @@ body {
   min-width: 200px;
   min-height: 50px;
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -239,9 +241,10 @@ body {
 .title-modal-form {
   font-family: var(--main-font);
   font-size: 20px;
+  font-weight: 400;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--main-color);
   margin-bottom: 12px;
 }
@@ -283,6 +286,7 @@ body {
 .modal-form-field {
   font-family: var(--main-font);
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--description-color);
@@ -302,6 +306,7 @@ body {
 .modal-form-message::placeholder {
   font-family: var(--main-font);
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -326,6 +331,7 @@ body {
   margin-bottom: 30px;
   font-family: var(--main-font);
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-color);
@@ -359,8 +365,8 @@ body {
   height: 50px;
   align-self: center;
   font-family: var(--main-font);
-  font-weight: bold;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--accent-color-text);
@@ -436,11 +442,11 @@ body {
 
 .btn-portfolio {
   font-family: inherit;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
+  font-weight: 500;
+  line-height: 1.63;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--main-color);
   background-color: var(--btn-background-portfolio);
   border-radius: 4px;
@@ -462,11 +468,11 @@ body {
 }
 
 .sections-title {
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--main-color);
   margin-bottom: 50px;
 }
@@ -529,6 +535,7 @@ body {
 
 .features-description {
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-color);
@@ -554,7 +561,8 @@ body {
   color: var(--accent-color-text);
   font-family: var(--main-font);
   font-size: 14px;
-  line-height: 1.7;
+  font-weight: 400;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -568,17 +576,18 @@ body {
 
 .footer-link-address {
   font-size: 14px;
-  line-height: 1.7;
+  font-weight: 400;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /* footer social links */
 .footer-join-us {
-  font-weight: bold;
-  margin-bottom: 20px;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--accent-color-text);
 }
@@ -616,8 +625,8 @@ body {
 
 .subscribe-title {
   font-family: var(--main-font);
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -648,10 +657,9 @@ body {
   width: 200px;
   height: 50px;
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
-  font-weight: bold;
   letter-spacing: 0.06em;
   color: var(--accent-color-text);
   background-color: var(--accent-color);
@@ -696,9 +704,9 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.33;
+  font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
   transition: color var(--transition-funktion);
@@ -721,9 +729,9 @@ body {
 .contacts-link {
   display: flex;
   align-items: center;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.33;
+  font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--description-color);
   padding-top: 32px;
@@ -768,8 +776,8 @@ body {
   max-width: 696px;
   text-align: center;
   margin-bottom: 30px;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -839,8 +847,8 @@ body {
 }
 
 .members-name {
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-color);
@@ -850,6 +858,7 @@ body {
 .members-position {
   margin-bottom: 16px;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--description-color);
@@ -880,8 +889,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;

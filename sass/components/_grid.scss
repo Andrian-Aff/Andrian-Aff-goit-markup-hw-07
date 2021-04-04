@@ -18,18 +18,13 @@
 }
 
 .progect-title {
+  @include font($fw: 700, $ls: 0.03em);
   margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
   color: var(--main-color);
 }
 
 .progect-type {
-  font-size: 16px;
-  line-height: 2.25x;
-  letter-spacing: 0.03em;
+  @include font($fs: 16px, $lh: 30px);
   color: var(--description-color);
 }
 
@@ -49,9 +44,7 @@
   left: 0;
   top: 0;
   padding: 63px 24px;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
+  @include font($lh: 28px);
   background-color: var(--accent-color);
   color: var(--accent-color-text);
   overflow: auto;

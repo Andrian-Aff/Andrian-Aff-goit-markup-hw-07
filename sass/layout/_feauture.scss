@@ -29,9 +29,7 @@
 }
 
 .features-description {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font($fs: 14px, $lh: 24px);
   color: var(--description-color);
   min-width: 270px;
 }
