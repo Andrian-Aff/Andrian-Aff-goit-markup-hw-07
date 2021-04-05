@@ -1,34 +1,17 @@
-.projects-set {
+.grid {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.progect-list-item {
+.grid__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.project-description {
-  border: 1px solid var(--border-color-projects);
-  border-top: none;
-  padding: 20px 24px;
-}
-
-.progect-title {
-  @include font($fw: 700, $ls: 0.03em);
-  margin-bottom: 4px;
-  color: var(--main-color);
-}
-
-.progect-type {
-  @include font($fs: 16px, $lh: 30px);
-  color: var(--description-color);
-}
-
-.project-link {
+.progect-link {
   display: block;
   transition: box-shadow var(--transition-funktion);
 
@@ -39,7 +22,7 @@
   }
 }
 
-.overlay-portfolio {
+.progect-link__overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -57,7 +40,24 @@
   }
 }
 
-.progect-list-wrapper {
+.progect-link__wrapper {
   position: relative;
   overflow: hidden;
+}
+
+.progect-link__lable {
+  border: 1px solid var(--border-color-projects);
+  border-top: none;
+  padding: 20px 24px;
+}
+
+.progect-link__title {
+  @include font($fw: 700, $ls: 0.03em);
+  margin-bottom: 4px;
+  color: var(--main-color);
+}
+
+.progect-link__text {
+  @include font($fs: 16px, $lh: 30px);
+  color: var(--description-color);
 }
