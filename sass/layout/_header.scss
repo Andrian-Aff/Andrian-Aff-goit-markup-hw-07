@@ -39,18 +39,18 @@
 
 /* header address*/
 
-.address-list-header {
+.contacts-header {
   display: flex;
   margin-left: auto;
 }
 
-.address-list-header__item {
+.contacts-header__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.address-list-header__link {
+.contacts-header__link {
   display: flex;
   align-items: center;
   @include font($fs: 14px, $fw: 500, $lh: 16px, $ls: 0.02em);
@@ -66,13 +66,13 @@
   }
 }
 
-.address-list-header__icon {
+.contacts-header__icon {
   margin-right: 10px;
   fill: currentColor;
   transition: fill var(--transition-funktion);
 
-  .contacts-link:hover &,
-  .contacts-link:focus & {
+  .contacts-header__link:hover &,
+  .contacts-header__link:focus & {
     fill: var(--accent-color);
   }
 }

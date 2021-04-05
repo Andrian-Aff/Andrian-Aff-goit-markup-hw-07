@@ -90,11 +90,11 @@ body {
   transition: opacity var(--transition-funktion);
 }
 
-.menu__link_current {
+.menu__link--current {
   color: var(--accent-color);
 }
 
-.menu__link_current::after {
+.menu__link--current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -180,6 +180,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   padding-right: 92px;
+  color: #000;
 }
 
 .logo {
@@ -189,23 +190,15 @@ body {
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-
-.logo_theme_light {
-  color: #000;
-}
-
-.logo_theme_dark {
-  color: #fff;
-}
-
-.logo_accent-text {
-  color: var(--accent-color);
 }
 
 .footer__logo {
   margin-bottom: 20px;
+  color: #fff;
+}
+
+.logo__accent-text {
+  color: var(--accent-color);
 }
 
 .modal-btn {
@@ -412,18 +405,18 @@ body {
   fill: var(--accent-color);
 }
 
-.portfolio-filter {
+.filter {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.portfolio-list {
+.filters-list {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
 
-.portfolio-list_btn {
+.filters-list__btn {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -438,7 +431,7 @@ body {
   transition: color var(--transition-funktion), background-color var(--transition-funktion), box-shadow var(--transition-funktion);
 }
 
-.portfolio-list_btn:hover, .portfolio-list_btn:focus {
+.filters-list__btn:hover, .filters-list__btn:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -446,7 +439,7 @@ body {
   border-radius: 4px;
 }
 
-.portfolio-list__item:not(:last-child) {
+.filters-list__item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -649,16 +642,16 @@ body {
 }
 
 /* header address*/
-.address-list-header {
+.contacts-header {
   display: flex;
   margin-left: auto;
 }
 
-.address-list-header__item:not(:last-child) {
+.contacts-header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.address-list-header__link {
+.contacts-header__link {
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -671,29 +664,29 @@ body {
   transition: color var(--transition-funktion);
 }
 
-.address-list-header__link:hover, .address-list-header__link:focus {
+.contacts-header__link:hover, .contacts-header__link:focus {
   color: var(--accent-color);
 }
 
-.address-list-header__icon {
+.contacts-header__icon {
   margin-right: 10px;
   fill: currentColor;
   transition: fill var(--transition-funktion);
 }
 
-.contacts-link:hover .address-list-header__icon,
-.contacts-link:focus .address-list-header__icon {
+.contacts-header__link:hover .contacts-header__icon,
+.contacts-header__link:focus .contacts-header__icon {
   fill: var(--accent-color);
 }
 
-.hero-section {
+.hero {
   background-color: var(--hero-background-color);
   padding-top: 199px;
   padding-bottom: 200px;
   text-align: center;
 }
 
-.overlay {
+.hero__overlay {
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
@@ -703,7 +696,7 @@ body {
   background-size: cover;
 }
 
-.hero-section__title {
+.hero__title {
   margin: auto;
   max-width: 696px;
   text-align: center;
@@ -754,7 +747,7 @@ body {
   fill: var(--accent-color);
 }
 
-.our-team {
+.team {
   background-color: var(--btn-background-portfolio);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -773,12 +766,12 @@ body {
   background-color: var(--accent-color-text);
 }
 
-.team-list__description {
+.team-list__box {
   padding: 30px 32px;
   text-align: center;
 }
 
-.team-list__members-name {
+.team-list__name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -787,7 +780,7 @@ body {
   margin-bottom: 10px;
 }
 
-.team-list__members-position {
+.team-list__position {
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 400;
@@ -796,7 +789,7 @@ body {
   color: var(--description-color);
 }
 
-.our-possabilities {
+.possabilities {
   padding-bottom: 94px;
 }
 
@@ -814,7 +807,7 @@ body {
   display: flex;
 }
 
-.possibilities-list__description-wrepper {
+.possibilities-list__box {
   position: absolute;
   bottom: 0;
   left: 0;
